@@ -1,16 +1,16 @@
 /* styles go here */
-input {
-  margin-bottom: 10px ;
+input:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 fieldset {
   margin-bottom: 20px;
 }
 
-textarea {
+textarea:not(:last-child) {
   margin-bottom: 10px;
 }
 
-select {
+select:not(:last-child) {
   margin-bottom: 10px;
 }
